@@ -19,8 +19,8 @@ export default new Vuex.Store({
   mutations: {
     SET_FULL_ROOM_NAME (state, payload) {
       for (let i = 0; i < state.rooms.length; i++) {
-        if (state.rooms[i].name == payload) {
-          state.rooms.splice(i, 1);
+        if (state.rooms[i].name === payload) {
+          state.rooms.splice(i, 1)
         }
       }
       state.fullRoomName = payload
