@@ -1,6 +1,11 @@
 # socket_game_color_hunt
 
+run server 
 ```javascript
-run server npm run dev
-run client npm run serve
+npm run dev
+```
+
+run client 
+```javascript
+npm run serve
 ```
